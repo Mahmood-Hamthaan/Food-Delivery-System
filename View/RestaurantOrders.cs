@@ -26,7 +26,7 @@ namespace Food_Delivery_System.View
             if (_restId == 0) { MessageBox.Show("Not logged in."); Close(); return; }
 
             DataTable dt = OrderController.GetOrdersByRestaurant(_restId);
-            dataGridViewOrders.DataSource = dt;   // dgvOrders is the gray DataGridView in your screenshot
+            dataGridViewOrders.DataSource = dt;
             dataGridViewOrders.ClearSelection();
         }
 
