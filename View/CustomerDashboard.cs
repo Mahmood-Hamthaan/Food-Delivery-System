@@ -16,5 +16,24 @@ namespace Food_Delivery_System.View
         {
             InitializeComponent();
         }
+
+        private void buttonPlaceOrder_Click(object sender, EventArgs e)
+        {
+            new CustomerRestaurantList().Show();
+            this.Close();
+        }
+
+        private void buttonViewOrder_Click(object sender, EventArgs e)
+        {
+            new CustomerViewOrder().Show();
+            this.Close();
+        }
+
+        private void buttonLogout_Click(object sender, EventArgs e)
+        {
+            Session.SignOut();
+            new Login().Show();
+            this.Hide();
+        }
     }
 }

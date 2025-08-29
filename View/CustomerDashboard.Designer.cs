@@ -43,6 +43,7 @@
             this.buttonLogout.TabIndex = 11;
             this.buttonLogout.Text = "Logout";
             this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.Click += new System.EventHandler(this.buttonLogout_Click);
             // 
             // buttonPlaceOrder
             // 
@@ -53,6 +54,7 @@
             this.buttonPlaceOrder.TabIndex = 9;
             this.buttonPlaceOrder.Text = "Place Order";
             this.buttonPlaceOrder.UseVisualStyleBackColor = true;
+            this.buttonPlaceOrder.Click += new System.EventHandler(this.buttonPlaceOrder_Click);
             // 
             // labelCustomerDashboard
             // 
@@ -73,6 +75,7 @@
             this.buttonViewOrder.TabIndex = 10;
             this.buttonViewOrder.Text = "View Order";
             this.buttonViewOrder.UseVisualStyleBackColor = true;
+            this.buttonViewOrder.Click += new System.EventHandler(this.buttonViewOrder_Click);
             // 
             // CustomerDashboard
             // 
