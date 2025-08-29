@@ -1,0 +1,90 @@
+﻿namespace Food_Delivery_System.View
+{
+    partial class RestaurantOrders
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dataGridViewOrders = new System.Windows.Forms.DataGridView();
+            this.labelOrders = new System.Windows.Forms.Label();
+            this.buttonGoBack = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridViewOrders
+            // 
+            this.dataGridViewOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewOrders.Location = new System.Drawing.Point(12, 85);
+            this.dataGridViewOrders.Name = "dataGridViewOrders";
+            this.dataGridViewOrders.RowHeadersWidth = 51;
+            this.dataGridViewOrders.RowTemplate.Height = 24;
+            this.dataGridViewOrders.Size = new System.Drawing.Size(628, 124);
+            this.dataGridViewOrders.TabIndex = 30;
+            // 
+            // labelOrders
+            // 
+            this.labelOrders.AutoSize = true;
+            this.labelOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
+            this.labelOrders.Location = new System.Drawing.Point(271, 33);
+            this.labelOrders.Name = "labelOrders";
+            this.labelOrders.Size = new System.Drawing.Size(106, 32);
+            this.labelOrders.TabIndex = 28;
+            this.labelOrders.Text = "Orders";
+            // 
+            // buttonGoBack
+            // 
+            this.buttonGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.buttonGoBack.Location = new System.Drawing.Point(263, 239);
+            this.buttonGoBack.Name = "buttonGoBack";
+            this.buttonGoBack.Size = new System.Drawing.Size(132, 32);
+            this.buttonGoBack.TabIndex = 31;
+            this.buttonGoBack.Text = "Go Back";
+            this.buttonGoBack.UseVisualStyleBackColor = true;
+            this.buttonGoBack.Click += new System.EventHandler(this.buttonGoBack_Click);
+            // 
+            // RestaurantOrders
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(652, 290);
+            this.Controls.Add(this.buttonGoBack);
+            this.Controls.Add(this.dataGridViewOrders);
+            this.Controls.Add(this.labelOrders);
+            this.Name = "RestaurantOrders";
+            this.Text = "Orders";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dataGridViewOrders;
+        private System.Windows.Forms.Label labelOrders;
+        private System.Windows.Forms.Button buttonGoBack;
+    }
+}
