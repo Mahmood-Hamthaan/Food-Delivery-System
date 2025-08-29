@@ -80,6 +80,7 @@
             this.buttonBackToLogin.TabIndex = 35;
             this.buttonBackToLogin.Text = "Back To Login";
             this.buttonBackToLogin.UseVisualStyleBackColor = true;
+            this.buttonBackToLogin.Click += new System.EventHandler(this.buttonBackToLogin_Click);
             // 
             // buttonRegister
             // 
@@ -90,6 +91,7 @@
             this.buttonRegister.TabIndex = 34;
             this.buttonRegister.Text = "Register";
             this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
             // labelConfiromPassword
             // 
