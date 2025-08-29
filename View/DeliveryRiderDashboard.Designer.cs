@@ -49,9 +49,11 @@
             // 
             this.dataGridViewAssiginedOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewAssiginedOrder.Location = new System.Drawing.Point(42, 98);
+            this.dataGridViewAssiginedOrder.MultiSelect = false;
             this.dataGridViewAssiginedOrder.Name = "dataGridViewAssiginedOrder";
             this.dataGridViewAssiginedOrder.RowHeadersWidth = 51;
             this.dataGridViewAssiginedOrder.RowTemplate.Height = 24;
+            this.dataGridViewAssiginedOrder.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewAssiginedOrder.Size = new System.Drawing.Size(570, 153);
             this.dataGridViewAssiginedOrder.TabIndex = 8;
             // 
@@ -64,6 +66,7 @@
             this.buttonLogout.TabIndex = 16;
             this.buttonLogout.Text = "Logout";
             this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.Click += new System.EventHandler(this.buttonLogout_Click);
             // 
             // buttonDone
             // 
@@ -74,6 +77,7 @@
             this.buttonDone.TabIndex = 17;
             this.buttonDone.Text = "Done";
             this.buttonDone.UseVisualStyleBackColor = true;
+            this.buttonDone.Click += new System.EventHandler(this.buttonDone_Click);
             // 
             // DeliveryRiderDashboard
             // 
@@ -86,6 +90,7 @@
             this.Controls.Add(this.labelAssiginedOrder);
             this.Name = "DeliveryRiderDashboard";
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.DeliveryRiderDashboard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAssiginedOrder)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

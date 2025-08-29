@@ -131,5 +131,39 @@ namespace Food_Delivery_System.Controllers
             }
             return table;
         }
+
+        public static DataTable GetOrdersByRider(int riderId)
+        {
+            const string sql = @"
+                SELECT ID, CustomerID, RestaurantID, RiderID, Items, DeliveryAddress,
+                       Status, TotalCost, CreatedAt
+                FROM orders
+                WHERE RiderID = @r
+                  AND Status <> 'Cancelled'
+                ORDER BY CreatedAt DESC;";
+
+            DBConnection db = new DBConnection();
+            DataTable table = new DataTable();
+
+            try
+            {
+                if (!db.OpenConnection()) return table;
+                using (MySqlCommand cmd = new MySqlCommand(sql, db.GetConnection()))
+                {
+                    cmd.Parameters.AddWithValue("@r", riderId);
+                    using (MySqlDataAdapter da = new MySqlDataAdapter(cmd))
+                    {
+                        da.Fill(table);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("GetOrdersByRider error: " + ex.Message);
+            }
+            finally { db.CloseConnection(); }
+
+            return table;
+        }
     }
 }
