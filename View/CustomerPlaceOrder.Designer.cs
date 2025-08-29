@@ -60,6 +60,7 @@
             this.buttonAddToCart.TabIndex = 17;
             this.buttonAddToCart.Text = "Add To Cart";
             this.buttonAddToCart.UseVisualStyleBackColor = true;
+            this.buttonAddToCart.Click += new System.EventHandler(this.buttonAddToCart_Click);
             // 
             // buttonRemove
             // 
@@ -70,6 +71,7 @@
             this.buttonRemove.TabIndex = 16;
             this.buttonRemove.Text = "Remove";
             this.buttonRemove.UseVisualStyleBackColor = true;
+            this.buttonRemove.Click += new System.EventHandler(this.buttonRemove_Click);
             // 
             // dataGridViewFoodMenu
             // 
@@ -100,6 +102,7 @@
             this.buttonPlaceOrder.TabIndex = 20;
             this.buttonPlaceOrder.Text = "Place Order";
             this.buttonPlaceOrder.UseVisualStyleBackColor = true;
+            this.buttonPlaceOrder.Click += new System.EventHandler(this.buttonPlaceOrder_Click);
             // 
             // buttonGoBack
             // 
@@ -110,6 +113,7 @@
             this.buttonGoBack.TabIndex = 21;
             this.buttonGoBack.Text = "Go Back";
             this.buttonGoBack.UseVisualStyleBackColor = true;
+            this.buttonGoBack.Click += new System.EventHandler(this.buttonGoBack_Click);
             // 
             // dataGridViewCart
             // 
@@ -147,6 +151,7 @@
             this.Controls.Add(this.dataGridViewFoodMenu);
             this.Name = "CustomerPlaceOrder";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.CustomerPlaceOrder_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFoodMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCart)).EndInit();
             this.ResumeLayout(false);

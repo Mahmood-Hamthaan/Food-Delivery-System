@@ -107,6 +107,7 @@
     <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Controllers\RiderController.cs" />
     <Compile Include="DBConnection.cs" />
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Delivery.cs" />
     <Compile Include="Models\MenuItem.cs" />

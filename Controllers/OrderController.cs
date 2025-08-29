@@ -43,22 +43,19 @@ namespace Food_Delivery_System.Controllers
 
         public static bool CancelOrder(int orderId)
         {
-            const string sql = @"UPDATE orders SET Status='Cancelled' WHERE ID=@id";
-            var db = new DBConnection();
-            MySqlCommand cmd = null;
+            const string sql = "UPDATE orders SET Status='Cancelled' WHERE ID=@id AND Status <> 'Cancelled'";
+            DBConnection db = new DBConnection();
             try
             {
                 if (!db.OpenConnection()) return false;
-                cmd = new MySqlCommand(sql, db.GetConnection());
-                cmd.Parameters.AddWithValue("@id", orderId);
-                return cmd.ExecuteNonQuery() > 0;
+                using (var cmd = new MySql.Data.MySqlClient.MySqlCommand(sql, db.GetConnection()))
+                {
+                    cmd.Parameters.AddWithValue("@id", orderId);
+                    return cmd.ExecuteNonQuery() > 0;
+                }
             }
             catch (Exception ex) { MessageBox.Show("CancelOrder error: " + ex.Message); return false; }
-            finally
-            {
-                if (cmd != null) cmd.Dispose();
-                db.CloseConnection();
-            }
+            finally { db.CloseConnection(); }
         }
 
         public static bool UpdateStatus(int orderId, string status) // Restaurant flow

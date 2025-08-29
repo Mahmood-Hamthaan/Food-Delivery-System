@@ -44,6 +44,7 @@
             this.buttonGoBack.TabIndex = 13;
             this.buttonGoBack.Text = "Go Back";
             this.buttonGoBack.UseVisualStyleBackColor = true;
+            this.buttonGoBack.Click += new System.EventHandler(this.buttonGoBack_Click);
             // 
             // buttonViewMenu
             // 
@@ -54,6 +55,7 @@
             this.buttonViewMenu.TabIndex = 12;
             this.buttonViewMenu.Text = "View Menu";
             this.buttonViewMenu.UseVisualStyleBackColor = true;
+            this.buttonViewMenu.Click += new System.EventHandler(this.buttonViewMenu_Click);
             // 
             // dataGridViewRestaurantsList
             // 
@@ -86,6 +88,7 @@
             this.Controls.Add(this.dataGridViewRestaurantsList);
             this.Name = "CustomerRestaurantList";
             this.Text = "Restaurants";
+            this.Load += new System.EventHandler(this.CustomerRestaurantList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRestaurantsList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -54,6 +54,7 @@
             this.buttonGoBack.TabIndex = 26;
             this.buttonGoBack.Text = "Go Back";
             this.buttonGoBack.UseVisualStyleBackColor = true;
+            this.buttonGoBack.Click += new System.EventHandler(this.buttonGoBack_Click);
             // 
             // buttonCancelOrder
             // 
@@ -64,6 +65,7 @@
             this.buttonCancelOrder.TabIndex = 25;
             this.buttonCancelOrder.Text = "Cancel Order";
             this.buttonCancelOrder.UseVisualStyleBackColor = true;
+            this.buttonCancelOrder.Click += new System.EventHandler(this.buttonCancelOrder_Click);
             // 
             // labelOrders
             // 
@@ -86,6 +88,7 @@
             this.Controls.Add(this.labelOrders);
             this.Name = "CustomerViewOrder";
             this.Text = "Order";
+            this.Load += new System.EventHandler(this.CustomerViewOrder_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
