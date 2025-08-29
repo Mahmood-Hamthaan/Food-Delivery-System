@@ -114,6 +114,7 @@
             this.buttonRegister.TabIndex = 7;
             this.buttonRegister.Text = "Register";
             this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
             // buttonBackToLogin
             // 
@@ -124,6 +125,7 @@
             this.buttonBackToLogin.TabIndex = 8;
             this.buttonBackToLogin.Text = "Back To Login";
             this.buttonBackToLogin.UseVisualStyleBackColor = true;
+            this.buttonBackToLogin.Click += new System.EventHandler(this.buttonBackToLogin_Click);
             // 
             // textBoxName
             // 
