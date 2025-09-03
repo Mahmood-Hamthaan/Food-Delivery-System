@@ -42,13 +42,13 @@
             this.dataGridViewOrders.Name = "dataGridViewOrders";
             this.dataGridViewOrders.RowHeadersWidth = 51;
             this.dataGridViewOrders.RowTemplate.Height = 24;
-            this.dataGridViewOrders.Size = new System.Drawing.Size(628, 124);
+            this.dataGridViewOrders.Size = new System.Drawing.Size(801, 124);
             this.dataGridViewOrders.TabIndex = 27;
             // 
             // buttonGoBack
             // 
             this.buttonGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonGoBack.Location = new System.Drawing.Point(345, 238);
+            this.buttonGoBack.Location = new System.Drawing.Point(437, 238);
             this.buttonGoBack.Name = "buttonGoBack";
             this.buttonGoBack.Size = new System.Drawing.Size(132, 32);
             this.buttonGoBack.TabIndex = 26;
@@ -59,7 +59,7 @@
             // buttonCancelOrder
             // 
             this.buttonCancelOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonCancelOrder.Location = new System.Drawing.Point(153, 238);
+            this.buttonCancelOrder.Location = new System.Drawing.Point(245, 238);
             this.buttonCancelOrder.Name = "buttonCancelOrder";
             this.buttonCancelOrder.Size = new System.Drawing.Size(132, 32);
             this.buttonCancelOrder.TabIndex = 25;
@@ -71,7 +71,7 @@
             // 
             this.labelOrders.AutoSize = true;
             this.labelOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
-            this.labelOrders.Location = new System.Drawing.Point(271, 33);
+            this.labelOrders.Location = new System.Drawing.Point(363, 33);
             this.labelOrders.Name = "labelOrders";
             this.labelOrders.Size = new System.Drawing.Size(106, 32);
             this.labelOrders.TabIndex = 24;
@@ -81,7 +81,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(652, 290);
+            this.ClientSize = new System.Drawing.Size(825, 290);
             this.Controls.Add(this.dataGridViewOrders);
             this.Controls.Add(this.buttonGoBack);
             this.Controls.Add(this.buttonCancelOrder);

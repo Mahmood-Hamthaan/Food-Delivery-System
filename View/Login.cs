@@ -23,12 +23,12 @@ namespace Food_Delivery_System.View
             SessionUser user = AuthController.Login(textBoxUsername.Text.Trim(), textBoxPassword.Text);
             if (user == null)
             {
-                MessageBox.Show("Invalid username or password.");
+                MessageBox.Show("Enter username and password.");
                 return;
             }
 
             // DEBUG: verify ID made it into Session
-            MessageBox.Show("Logged in as " + user.Username + " (ID=" + user.ID + ", Role=" + user.Role + ")");
+            MessageBox.Show($"Logged in as {user.Username} (ID = {user.ID}, Role = {user.Role})");
 
             this.Hide();
             if (user.Role == "Restaurant") new RestaurantDashboard(user.ID).Show();

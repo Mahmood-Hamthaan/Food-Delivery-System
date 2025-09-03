@@ -46,6 +46,7 @@
             // 
             // dateTimePickerClosingTime
             // 
+            this.dateTimePickerClosingTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePickerClosingTime.Location = new System.Drawing.Point(232, 263);
             this.dateTimePickerClosingTime.Name = "dateTimePickerClosingTime";
             this.dateTimePickerClosingTime.Size = new System.Drawing.Size(161, 22);
@@ -53,6 +54,7 @@
             // 
             // dateTimePickerOpeningTime
             // 
+            this.dateTimePickerOpeningTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePickerOpeningTime.Location = new System.Drawing.Point(232, 224);
             this.dateTimePickerOpeningTime.Name = "dateTimePickerOpeningTime";
             this.dateTimePickerOpeningTime.Size = new System.Drawing.Size(161, 22);

@@ -38,7 +38,7 @@
             // buttonGoBack
             // 
             this.buttonGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonGoBack.Location = new System.Drawing.Point(401, 340);
+            this.buttonGoBack.Location = new System.Drawing.Point(473, 340);
             this.buttonGoBack.Name = "buttonGoBack";
             this.buttonGoBack.Size = new System.Drawing.Size(132, 32);
             this.buttonGoBack.TabIndex = 13;
@@ -49,7 +49,7 @@
             // buttonViewMenu
             // 
             this.buttonViewMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonViewMenu.Location = new System.Drawing.Point(242, 340);
+            this.buttonViewMenu.Location = new System.Drawing.Point(314, 340);
             this.buttonViewMenu.Name = "buttonViewMenu";
             this.buttonViewMenu.Size = new System.Drawing.Size(132, 32);
             this.buttonViewMenu.TabIndex = 12;
@@ -64,14 +64,14 @@
             this.dataGridViewRestaurantsList.Name = "dataGridViewRestaurantsList";
             this.dataGridViewRestaurantsList.RowHeadersWidth = 51;
             this.dataGridViewRestaurantsList.RowTemplate.Height = 24;
-            this.dataGridViewRestaurantsList.Size = new System.Drawing.Size(776, 242);
+            this.dataGridViewRestaurantsList.Size = new System.Drawing.Size(863, 242);
             this.dataGridViewRestaurantsList.TabIndex = 11;
             // 
             // labelRestaurantsList
             // 
             this.labelRestaurantsList.AutoSize = true;
             this.labelRestaurantsList.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
-            this.labelRestaurantsList.Location = new System.Drawing.Point(268, 30);
+            this.labelRestaurantsList.Location = new System.Drawing.Point(340, 30);
             this.labelRestaurantsList.Name = "labelRestaurantsList";
             this.labelRestaurantsList.Size = new System.Drawing.Size(235, 32);
             this.labelRestaurantsList.TabIndex = 14;
@@ -81,7 +81,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 404);
+            this.ClientSize = new System.Drawing.Size(887, 404);
             this.Controls.Add(this.labelRestaurantsList);
             this.Controls.Add(this.buttonGoBack);
             this.Controls.Add(this.buttonViewMenu);

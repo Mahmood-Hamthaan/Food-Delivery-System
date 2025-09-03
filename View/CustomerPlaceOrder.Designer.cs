@@ -45,7 +45,7 @@
             // 
             this.labelRestaurantMenu.AutoSize = true;
             this.labelRestaurantMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
-            this.labelRestaurantMenu.Location = new System.Drawing.Point(189, 30);
+            this.labelRestaurantMenu.Location = new System.Drawing.Point(247, 30);
             this.labelRestaurantMenu.Name = "labelRestaurantMenu";
             this.labelRestaurantMenu.Size = new System.Drawing.Size(246, 32);
             this.labelRestaurantMenu.TabIndex = 18;
@@ -54,7 +54,7 @@
             // buttonAddToCart
             // 
             this.buttonAddToCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonAddToCart.Location = new System.Drawing.Point(509, 320);
+            this.buttonAddToCart.Location = new System.Drawing.Point(627, 320);
             this.buttonAddToCart.Name = "buttonAddToCart";
             this.buttonAddToCart.Size = new System.Drawing.Size(132, 32);
             this.buttonAddToCart.TabIndex = 17;
@@ -65,7 +65,7 @@
             // buttonRemove
             // 
             this.buttonRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonRemove.Location = new System.Drawing.Point(509, 511);
+            this.buttonRemove.Location = new System.Drawing.Point(627, 511);
             this.buttonRemove.Name = "buttonRemove";
             this.buttonRemove.Size = new System.Drawing.Size(132, 32);
             this.buttonRemove.TabIndex = 16;
@@ -80,7 +80,7 @@
             this.dataGridViewFoodMenu.Name = "dataGridViewFoodMenu";
             this.dataGridViewFoodMenu.RowHeadersWidth = 51;
             this.dataGridViewFoodMenu.RowTemplate.Height = 24;
-            this.dataGridViewFoodMenu.Size = new System.Drawing.Size(628, 211);
+            this.dataGridViewFoodMenu.Size = new System.Drawing.Size(747, 211);
             this.dataGridViewFoodMenu.TabIndex = 15;
             // 
             // lableFoodList
@@ -96,7 +96,7 @@
             // buttonPlaceOrder
             // 
             this.buttonPlaceOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonPlaceOrder.Location = new System.Drawing.Point(141, 564);
+            this.buttonPlaceOrder.Location = new System.Drawing.Point(141, 558);
             this.buttonPlaceOrder.Name = "buttonPlaceOrder";
             this.buttonPlaceOrder.Size = new System.Drawing.Size(132, 32);
             this.buttonPlaceOrder.TabIndex = 20;
@@ -107,7 +107,7 @@
             // buttonGoBack
             // 
             this.buttonGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonGoBack.Location = new System.Drawing.Point(361, 564);
+            this.buttonGoBack.Location = new System.Drawing.Point(361, 558);
             this.buttonGoBack.Name = "buttonGoBack";
             this.buttonGoBack.Size = new System.Drawing.Size(132, 32);
             this.buttonGoBack.TabIndex = 21;
@@ -122,7 +122,7 @@
             this.dataGridViewCart.Name = "dataGridViewCart";
             this.dataGridViewCart.RowHeadersWidth = 51;
             this.dataGridViewCart.RowTemplate.Height = 24;
-            this.dataGridViewCart.Size = new System.Drawing.Size(628, 124);
+            this.dataGridViewCart.Size = new System.Drawing.Size(747, 124);
             this.dataGridViewCart.TabIndex = 22;
             // 
             // labelCart
@@ -139,7 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 627);
+            this.ClientSize = new System.Drawing.Size(771, 603);
             this.Controls.Add(this.labelCart);
             this.Controls.Add(this.dataGridViewCart);
             this.Controls.Add(this.buttonGoBack);

@@ -62,7 +62,6 @@ namespace Food_Delivery_System.View
 
         private void buttonGoBack_Click(object sender, EventArgs e)
         {
-            new RestaurantManageMenu().Show();
             this.Close();
         }
     }

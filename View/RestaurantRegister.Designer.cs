@@ -188,13 +188,16 @@
             // 
             // dateTimePickerOpeningTime
             // 
+            this.dateTimePickerOpeningTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePickerOpeningTime.Location = new System.Drawing.Point(232, 224);
             this.dateTimePickerOpeningTime.Name = "dateTimePickerOpeningTime";
             this.dateTimePickerOpeningTime.Size = new System.Drawing.Size(161, 22);
             this.dateTimePickerOpeningTime.TabIndex = 34;
+            this.dateTimePickerOpeningTime.Value = new System.DateTime(2025, 9, 3, 5, 20, 17, 0);
             // 
             // dateTimePickerClosingTime
             // 
+            this.dateTimePickerClosingTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePickerClosingTime.Location = new System.Drawing.Point(232, 263);
             this.dateTimePickerClosingTime.Name = "dateTimePickerClosingTime";
             this.dateTimePickerClosingTime.Size = new System.Drawing.Size(161, 22);

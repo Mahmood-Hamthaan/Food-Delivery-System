@@ -86,9 +86,9 @@
             // buttonLogin
             // 
             this.buttonLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.buttonLogin.Location = new System.Drawing.Point(158, 275);
+            this.buttonLogin.Location = new System.Drawing.Point(116, 284);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(84, 32);
+            this.buttonLogin.Size = new System.Drawing.Size(127, 32);
             this.buttonLogin.TabIndex = 5;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
             // buttonSignUp
             // 
             this.buttonSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSignUp.Location = new System.Drawing.Point(258, 275);
+            this.buttonSignUp.Location = new System.Drawing.Point(258, 284);
             this.buttonSignUp.Name = "buttonSignUp";
-            this.buttonSignUp.Size = new System.Drawing.Size(84, 32);
+            this.buttonSignUp.Size = new System.Drawing.Size(127, 32);
             this.buttonSignUp.TabIndex = 6;
             this.buttonSignUp.Text = "Sign Up";
             this.buttonSignUp.UseVisualStyleBackColor = true;
